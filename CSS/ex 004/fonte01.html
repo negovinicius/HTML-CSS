@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'work Sans', Arial, Helvetica, sans-serif;
+
+            font-size: 1em;
+            /*font-weight: lighter;
+            font-style: normal;*/
+            /*text-decoration: underline;  para deixar sublinhado*/
+            /* lighter normal bold bolder (100,300,400..900) */
+
+            /* 
+            weigth - peso
+            width - altura
+
+            16px geralmente é u tamanho usado e geralmente é = a 1 em.
+
+            Medidas absolutas
+            cm, mn, in, px, pt, pc
+            
+            medidas relativas
+            em*, ex, rem, vw, vh, %
+            */
+        }
+
+        h1 {
+            /*font-family: 'work Sans', sans-serif; TEM QUE SER NESSA ORDEM
+            PARA ABREVIAR E COLOCAR UM APÓS O OUTRO, COMO NO MODELO ABAIXO.
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+            /*shorthand font
+            - font style - font weight -> font-family
+            */
+            font: italic bolder 3em 'work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'work Sans';
+        }
+      
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse repellat ut aut nulla. Perferendis enim ratione, minima, quod, non a animi modi impedit hic quisquam voluptatibus ea cumque quidem facere!</p>
+    <h2>Subtitulo do execicio</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt distinctio voluptatem rerum aspernatur voluptatum magnam quaerat, asperiores tempora culpa eos perferendis atque omnis soluta ea accusamus aliquam maxime. Distinctio, voluptate!</p>
+    
+</body>
+</html>

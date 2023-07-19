@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+
+* {
+    font-family: sans-serif;
+    /*height: 100%;*/
+}
+
+body {
+    background-image: linear-gradient(to right, #A1C7E0, #FF9933 );
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px  #026e818b;
+    width: 600px;
+    padding: 10px;
+    margin: aut0;
+}
+
+h1 {
+    color: #026E81;
+    text-align: center;
+    text-shadow: 1px 1px 0px #014754b5;
+}
+
+h2 {
+    color: #0099DD;
+}
+
+h3 {
+    color: #026E81;
+    text-align: center;
+    text-shadow: 1px, 1px 0px #0099DD;
+    column-span: all;
+   
+}
+
+.article {
+    background-color: white;
+    width: 600px;
+    border-radius: 10px;
+    padding: 10px;
+    column-count: 3;
+    column-gap: 3rem;
+    column-rule: 5px dashed chocolate;
+}
+
+h4 {
+    background-color: #0099DD;
+    padding: 1rem;
+    color: white;
+}
+
+p {
+    text-align: justify;
+}
+
+*/ BACKGROUD COLOR - COR DE FUNDO, BORDER RADIUS - BORDA, BOX SHADOW - SOMBRA DA CAIXA, WIDTH LARGURA, PADDING - ACOLCHOAMENTO - MARGIN AUTO PARA CENTRALIZAR.
+
